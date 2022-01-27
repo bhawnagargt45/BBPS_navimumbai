@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Luxurious+Roman&family=Roboto:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: rgb(72, 134, 134); border-radius: 50px;}
+::-webkit-scrollbar-thumb:hover {background: rgb(41, 90, 90);}
+
+
+.header{
+    background: rgba( 0, 0, 0, 0.6) url("https://www.wallpapers4u.org/wp-content/uploads/europe_city_landscape_cloudy_48220_1920x1080.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .name{
+        font-family: Roboto;
+        color: white;
+        font-size: 6vh;
+        padding: 0 0.25vh 0 0.25vh;
+    } 
+
+    .post_title{
+        font-size: 100%;
+        font-family: Roboto;
+        color: whitesmoke;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .name{
+    font-family: Roboto;
+    color: white;
+    font-size: 7vh;
+    padding: 0 0.25vh 0 0.25vh;
+    }
+
+    .post_title{
+        font-size: 200%;
+        font-family: Roboto;
+        color: whitesmoke;
+    }
+}
+
+
+
+.sub_head{
+    padding: 0.5rem 0 0.5rem 0;
+    color: rgb(230, 198, 20);
+    font-family: cursive;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 100%;
+}
+.l-div{
+    padding: 3rem 5rem 0 5rem;
+}
+.s-heading{
+    color: rgb(240, 240, 240);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0.2rem 0.1vh 1% 0.1vh;
+}
+
+.summary_page_link{
+    color: rgb(240, 240, 240);
+}
+.summary_page_link:hover{
+    color: white;
+    transition: 1s;
+}
+
+
+/* Actual Content */
+
+.main_content_comp{
+    display: flex;
+    background: linear-gradient(90deg ,#ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    border-radius: 5px;
+}
+
+.post_credits{
+    background: linear-gradient(45deg ,#00a1ff , #00ff8f);
+    border-radius: 7px;
+    margin: 1vh 0.5rem 1vh 0.5rem;
+    padding: 0.5%;
+}
+.credits_text{
+    font-family: Roboto;
+    margin: 0.5rem;
+}
+
+.title_of_dpage{
+    padding: 3rem 5rem 3rem 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.links{
+    text-decoration: none;
+    text-align: center;
+}
+.links:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+.link_h{
+    background: rgba( 0, 0, 0, 0.3) url("Images/H1.jpg");
+    width: 33.33%;
+    padding: 15vh 0 15vh 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.link_t{
+    background: rgba( 0, 0, 0, 0.3) url("Images/T1.jpg");
+    width: 33.33%;
+    padding: 15vh 0 15vh 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.link_r{
+    background: rgba( 0, 0, 0, 0.3) url("Images/A2.jpg");
+    width: 33.33%;
+    padding: 15vh 0 15vh 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.link_edu{
+    background: rgba( 0, 0, 0, 0.3) url("Images/E2.jpg");
+    width: 33.33%;
+    padding: 15vh 0 15vh 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.link_upcom{
+    background: rgba( 0, 0, 0, 0.3) url("Images/U1.jpg");
+    width: 33.33%;
+    padding: 15vh 0 15vh 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.link_f{
+    background: rgba( 0, 0, 0, 0.3) url("Images/F1.jpg");
+    width: 33.33%;
+    padding: 15vh 0 15vh 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.link_e-shop{
+    background: rgba( 0, 0, 0, 0.3) url("Images/e-shop1.jpg");
+    width: 33.33%;
+    padding: 15vh 0 15vh 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+.h_img{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 1rem 2rem 1rem 0.25rem;
+}
+
+.banner_healthcare{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3) url("banners/banner-healthcare.jpg");
+    background-position: center;
+    background-blend-mode: darken;
+}
+.banner_trans{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5) url("banners/banner-transport.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.banner_eshop{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5) url("banners/banner-e-shopping.jpg");
+    background-blend-mode: darken;
+    background-position: center;
+}
+.banner_u{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5) url("banners/banner-invention.jpg");
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_edu{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5) url("banners/banner-education.jpg");
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_f{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2) url("banners/banner-farming.jpeg");
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_tech{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2) url("banners/banner-technology4.jpg");
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.d_content{
+    display: flex;
+    margin: 1% 2% 0 2%;
+}
+.img_div{
+    width: 25%;
+}
+.img_div img{
+    width: 100%;
+    margin: 0.25%;
+    border: none;
+    border-radius: 5px;
+}
+.t_div{
+    margin: 1%;
+    width: 75%;
+    
+}
+.t_div p , h4{
+    font-family: Cambria, Cochin, Georgia;
+    line-height: 2;
+}
+
+.bth_link{
+    color: black;
+    background: linear-gradient(180deg , #33c58e , #526e77);
+    border-radius: 2px;
+    margin: 1vh;
+    padding: 1.5vh;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bth_link:hover{
+    color: rgba(245, 245, 245, 0.815);
+    background: linear-gradient(180deg , #63fd88, #33c58e);
+}
+
+.footer_indexp{
+    left: 0;
+    bottom: 0;
+    padding: 2rem;
+    background: rgba(0, 14, 27, 0.945);
+    color: rgb(235, 244, 255);
+    font-family: Roboto;
+}
+.f-link{
+    color: rgb(235, 244, 255);
+    text-decoration: none;
+}
+.f-link:hover{
+    text-decoration: underline;
+    transition: 2s;
+}
+.yt-vid{
+    border-radius: 5px;
+}
+.u-img{
+    border-radius: 5px;
+    width: 20rem;
+}
